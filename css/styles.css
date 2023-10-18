@@ -23,6 +23,10 @@ body {
     color: #434455;
 }
 
+img {
+    display: block;
+}
+
 address {
     font-style: normal;
 }
@@ -60,6 +64,7 @@ ol {
     display: flex;
     align-items: center;
     gap: 332px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .logotype {
@@ -72,6 +77,7 @@ ol {
     color: #4D5AE5;
     padding-top: 25.5px;
     padding-bottom: 25.5px;
+    margin-right: 76px;
 }
 
 .logotype-span {
@@ -82,12 +88,13 @@ ol {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    gap: 76px;
+    
 }
 
 .menu-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .menu-link {
@@ -126,6 +133,7 @@ ol {
 
 .hero {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .hero-container {
@@ -140,7 +148,7 @@ ol {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
@@ -156,6 +164,7 @@ ol {
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
+    min-width: 169px;
 }
 .order-service-button:hover,
 .order-service-button:focus {
@@ -165,8 +174,9 @@ ol {
 
 /*Our Benefits Styles*/
 
-.hidden-text {
-    display: none;
+.visually-hidden {
+    position: fixed;
+  transform: scale(0);
 }
 
 .benefits-list {
@@ -200,10 +210,16 @@ ol {
 
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-list-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-name {
+    padding: 32px 0;
 }
 
 .team-section-title {
@@ -245,6 +261,11 @@ ol {
 
 /*Our Portfolio Styles*/
 
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio-section-title {
     text-align: center;
     font-size: 36px;
@@ -263,6 +284,13 @@ ol {
     gap: 24px;
     margin-top: 32px;
     margin-bottom: 8px;
+    row-gap: 48px;
+}
+
+.portfolio-list-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-list-title {
@@ -272,6 +300,7 @@ ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .portfolio-list-text {
@@ -287,6 +316,7 @@ ol {
 
 .page-footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .page-footer-container {
@@ -301,7 +331,8 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .page-footer-logotype-span {
