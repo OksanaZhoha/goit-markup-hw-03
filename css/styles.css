@@ -131,12 +131,12 @@ ol {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0 188px;
 }
 
 .hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
-  padding: 188px 0;
 }
 
 .main-title {
@@ -171,8 +171,8 @@ ol {
 
 /*Our Benefits Styles*/
 
-.benefits-container {
-  padding: 120px 0;
+.benefits {
+  padding: 120px 0 120px;
 }
 
 .visually-hidden {
@@ -180,10 +180,12 @@ ol {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .benefits-list {
@@ -205,7 +207,7 @@ ol {
 }
 
 .benefits-list-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-list-text {
