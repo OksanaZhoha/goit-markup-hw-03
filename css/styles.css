@@ -60,11 +60,14 @@ ol {
 
 /*Header Styles*/
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
     display: flex;
     align-items: center;
     gap: 332px;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .logotype {
@@ -88,13 +91,12 @@ ol {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    
+    padding: 24px 0;
 }
 
 .menu-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .menu-link {
@@ -133,12 +135,12 @@ ol {
 
 .hero {
     background-color: #2E2F42;
-    padding: 188px 0;
 }
 
 .hero-container {
     padding-top: 188px;
     padding-bottom: 188px;
+    padding: 188px 0;
 }
 
 .main-title {
@@ -174,9 +176,8 @@ ol {
 
 /*Our Benefits Styles*/
 
-.visually-hidden {
-    position: fixed;
-  transform: scale(0);
+.benefits-section-title {
+    visibility: hidden;
 }
 
 .benefits-list {
