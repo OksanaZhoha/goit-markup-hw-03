@@ -134,11 +134,6 @@ ol {
   padding: 188px 0 188px;
 }
 
-.hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-
 .main-title {
   text-align: center;
   font-size: 56px;
@@ -190,8 +185,6 @@ ol {
 
 .benefits-list {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
   gap: 24px;
   margin-left: auto;
   margin-right: auto;
@@ -238,14 +231,12 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team-list-title {
@@ -255,14 +246,12 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
 .team-list-text {
   text-align: center;
   font-size: 16px;
-  margin-bottom: 32px;
 }
 
 /*Our Portfolio Styles*/
@@ -280,7 +269,6 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -288,8 +276,6 @@ ol {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  margin-top: 32px;
-  margin-bottom: 8px;
   row-gap: 48px;
 }
 
@@ -311,21 +297,14 @@ ol {
 
 .portfolio-list-text {
   font-size: 16px;
-  margin-bottom: 32px;
 }
-.portfolio-container {
-  padding-bottom: 120px;
-}
+
 
 /*Footer Styles*/
 
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
-}
-
-.page-footer-container {
-  padding-top: 101.5px;
 }
 
 .page-footer-logotype {
@@ -348,6 +327,4 @@ ol {
   font-size: 16px;
   color: #f4f4fd;
   width: 264px;
-  padding-top: 17.5px;
-  padding-bottom: 100px;
 }
